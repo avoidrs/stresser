@@ -1,0 +1,195 @@
+{
+    "Branding" : {
+        "AppName" : "Every",
+        "ClientName" : "",
+
+        "Links" : {
+            "Power" : "https://t.me/",
+            "News" : "https://t.me/",
+            "Support" : "https://t.me/"
+        }
+    },
+
+    "Settings" : {
+        "Token" : "",
+        "NotifyToken" : "",
+
+        "Admins" : [],
+        "Version" : 1.0,
+
+        "MaxSlots" : 6,
+
+        "Maintenance" : false
+    },
+
+    "Plans" : [
+        {
+            "Name" : "Basic",
+            "Description" : "Basic plan",
+
+            "Concurrents" : 1,
+            "MaxTime" : 300,
+            "VIP" : false,
+            "API" : false,
+            
+            "Cost" : 15
+        },
+        {
+            "Name" : "Standart",
+            "Description" : "Standart plan",
+
+            "Concurrents" : 2,
+            "MaxTime" : 600,
+            "VIP" : false,
+            "API" : false,
+            
+            "Cost" : 35
+        },
+        {
+            "Name" : "Premium",
+            "Description" : "Premium plan",
+
+            "Concurrents" : 3,
+            "MaxTime" : 1200,
+            "VIP" : false,
+            "API" : true,
+            
+            "Cost" : 65
+        },
+        {
+            "Name" : "Omega",
+            "Description" : "Omega plan",
+
+            "Concurrents" : 4,
+            "MaxTime" : 2000,
+            "VIP" : false,
+            "API" : true,
+            
+            "Cost" : 90
+        },
+        {
+            "Name" : "Star",
+            "Description" : "Star plan",
+
+            "Concurrents" : 5,
+            "MaxTime" : 2600,
+            "VIP" : true,
+            "API" : true,
+            
+            "Cost" : 140
+        },
+        {
+            "Name" : "Tornado",
+            "Description" : "Tornado plan",
+
+            "Concurrents" : 6,
+            "MaxTime" : 3200,
+            "VIP" : true,
+            "API" : true,
+            
+            "Cost" : 180
+        }
+    ],
+
+    "Attacks" : {
+        "Debug" : true,
+        "Blacklists" : [
+            ".gov",
+            "gov.",
+            "lenta.ru",
+            "ria.ru",
+            "rosim.ru",
+            "roszeldor.ru",
+            "favt.ru",
+            "rosim.ru",
+            "nalog.ru",
+            "sberbank.ru",
+            "sberbank.ru",
+            "cherkessk09.ru",
+            "dagpravda.ru",
+            "gov.ru",
+            "twitter",
+            "qiwi.com",
+            "lenta.ru",
+            "ria.ru",
+            "rbc.ru",
+            "rt.com",
+            "kremlin.ru",
+            "en.kremlin.ru",
+            "smotrim.ru",
+            "tass.ru",
+            "tvzvezda.ru",
+            "vsoloviev.ru",
+            "1tv.ru",
+            "vesti.ru",
+            "online.sberbank.ru",
+            "sberbank.ru",
+            "zakupki.gov.ru",
+            "gosuslugi.ru",
+            "er.ru",
+            "rzd.ru",
+            "rzdlog.ru",
+            "vgtrk.ru",
+            "interfax.ru",
+            "mos.ruuslugi",
+            "government.ru",
+            "mil.ru",
+            "nalog.gov.ru",
+            "customs.gov.ru",
+            "pfr.gov.ru",
+            "rkn.gov.ru",
+            "gazprombank.ru",
+            "vtb.ru",
+            "gazprom.ru",
+            "lukoil.ru",
+            "magnit.ru",
+            "nornickel.com",
+            "surgutneftegas.ru",
+            "tatneft.ru",
+            "evraz.comru",
+            "nlmk.com",
+            "sibur.ru",
+            "severstal.com",
+            "metalloinvest.com",
+            "nangs.org",
+            "rmk-group.ruru",
+            "tmk-group.ru",
+            "yandex.by",
+            "polymetalinternational.com",
+            "uralkali.com",
+            "eurosib.ru",
+            "omk.ru",
+            "mail.rkn.gov.ru",
+            "cloud.rkn.gov.ru",
+            "mvd.gov.ru",
+            "pwd.wto.economy.gov.ru",
+            "stroi.gov.ru",
+            "proverki.gov.ru",
+            "gazeta.ru",
+            "crimea.kp.ru",
+            "kommersant.ru",
+            "riafan.ru",
+            "mk.ru",
+            "api.sberbank.ru",
+            "api.sberbank.ru",
+            "vedomosti.ru",
+            "sputnik.by",
+            "wildberries.ru",
+            "megafon.ru",
+            "ok.ru",
+            "vk.com",
+            "mvideo.ru",
+            "mts.ru",
+            "tls.mrrage.xyz",
+            "ventox.lol",
+            "hitme.ventox.lol",
+            "stargate.cam",
+            "forum.ventox.lol",
+            "grafana.ventox.lol",
+            "webstress.xyz",
+            "dev.dststx.xyz",
+            "sentry.ink",
+            "mullvad.net"
+        ]
+    }
+}

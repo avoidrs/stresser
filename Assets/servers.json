@@ -1,0 +1,11 @@
+{
+    "Servers": [
+        {
+            "host": "185.229.66.142",
+            "port": "22",
+            "username": "root",
+            "password": "zMFx1ry3FVKE",
+            "threads": ""
+        }
+    ]
+}
