@@ -9,9 +9,9 @@ cd stresserbotnet
 pip install -r requirements.txt
 main.py
 
-Ubuntu install
-apt update
-apt install python3-pip
+Ubuntu install \n
+apt update \n
+apt install python3-pip \n
 git clone https://github.com/avoidrs/stresserbotnet.git
 cd stresserbotnet
 pip install -r requirements.txt
